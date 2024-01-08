@@ -25,7 +25,7 @@ public class ExecutionClassForStringReverseAndFactorialCalculation {
 
     private static void processString() {
         System.out.println("Enter string for reverse:");
-        scanner.nextLine(); // Consume the newline
+        scanner.nextLine();
         String inputString = scanner.nextLine();
         String result = new StringBuilder(inputString).reverse().toString();
         System.out.println("Result: " + result);
